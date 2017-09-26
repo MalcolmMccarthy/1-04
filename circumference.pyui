@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{207, 139}, {204, 47}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "4BBD17BC-6E7C-4D4E-BF0A-DAFD96320F3A",
+          "alignment" : "center",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "name" : "radius_textbox",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{249, 228}, {120, 59}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "552C8A27-1939-4B44-A3F8-AECA51152C92",
+          "class" : "Button",
+          "name" : "calculate_touch_up_inside",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{228, 318}, {295, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "3E6A9EBF-329E-4C6C-B34A-5949B841BF12",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{219, 99}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label 1",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "8F06FF09-D160-48D0-BBA5-B4A5077A2BA4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "enter radius:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
